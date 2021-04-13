@@ -12,6 +12,7 @@ body{
     font-family: Jost;
     font-size: 16px;
     font-weight: 700;
+    padding: 10px 0;
 }
 .specialities .btn-secondary:hover{
     color: #ff9923;
@@ -185,12 +186,65 @@ Contact Page
     border-top: 1px solid #5b6c8f1c;
 }
 
+/* Contact-details */
+#contact-details{
+    font-family: jost;
+}
+#contact-details h2{
+    padding-bottom: 20px;
+    color: #103178;
+}
+#contact-details input,
+#contact-details textarea {
+    background-color: #f0f2f5;
+    border: none;
+    margin-bottom: 3px;
+    color: #5b6c8f;
+    padding: 11px 18px;
+    border-radius: 22px;
+}
+#contact-details .btn{
+    color: #fff;
+    background-color: #ff9923;
+    border: 1px solid #5b6c8f1c;
+    border-radius: 60px;
+    padding: 9px 50px;
+    font-size: 18px;
+    margin: 15px 0 0;
+}
+#contact-details .btn:hover{
+    color: #ff9923;
+    border: 1px solid #ff9923;
+    background-color: #fff;
+    outline: none;
+}
 
+/* advertisment */
 
-/* X-Small devices (portrait phones, less than 576px)
+#advertisment{
+    font-family: jost;
+    border-top: 1px solid #5b6c8f1c;
+}
+#advertisment img{
+    width: 107%;
+}
+#advertisment h4{
+    color: #103178;
+    font-size: 22px;
+    text-align: center;
+}
+#advertisment span{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/*--------------------------------------------------------------------------------------------------- 
+X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
 
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, 576px and up) 
+-----------------------------------------------------------------------------------------------------*/
+
 @media (min-width: 576px) {
     .footer{
         width: 95%;
