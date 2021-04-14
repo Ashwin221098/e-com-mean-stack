@@ -1,8 +1,75 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Jost', sans-serif;
 }
 
-/* footer-section */
+/* header mobile  */
+.m-header .logo-search .custom-container{
+    max-width: 600px;
+}
+.m-header .logo-search{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom:  1px solid #80808045;
+}
+.m-header .logo-search img{
+    height: 36px;
+    width: 144px;
+}
+.m-header .logo-search a{
+    text-decoration: none;
+    color: rgba(255,153,35,1);
+}
+.m-header .logo-search .search-i{
+    padding-top: 10px;
+}
+.m-header .m-nav{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+    background-color: #fff;
+    border-top:  1px solid #80808045;
+    height: 50px;
+    text-align: center;
+    padding-top: 13px;
+}
+.m-header .m-nav i{
+    color: rgba(255,153,35,1); 
+}
+.m-header .m-hide{
+    display: none;
+}
+.m-header .pop{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 5;
+    overflow-y: hidden;
+}
+.m-header .close{
+    display: none;
+}
+.m-header .pop ul li {
+    list-style: none;
+    display: block;
+}
+/* header mobile  end*/
+
+/* header PC*/
+.desk-header{
+    display: none;
+}
+.desk-header .header-helpline p{
+    display: none;
+}
+.desk-header .search-content{
+    display: none;
+}
+/* header PC end */
+
+/* footer section  */
 .footer{
     color: rgba(91,108,143,1);
 }
@@ -29,11 +96,12 @@ body{
 }
 .footer .social-links li{
     float: left;
-    margin-right: 10px;
+    margin-left: -5px;
+    margin-right: 19px;
 }
 .footer .social-links li a{
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     color: rgba(91,108,143,1);
 }
 .footer .helpline{
@@ -48,7 +116,7 @@ body{
 .footer .info h3{
     margin-bottom: 5px;
     line-height: 36px;
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 600;
     color: rgba(16,49,120,1);
 }
@@ -70,6 +138,9 @@ footer .info p{
     font-size: 14px;
     text-decoration: none;
 }
+.footer .info a:hover{
+    color: rgba(255,153,35,1);
+}
 hr{
     display: none;
 }
@@ -88,39 +159,139 @@ hr{
 .footer .sub-heading li{
     padding: 5px 0;
 }
+.footer .sub-heading .shs{
+    padding: 5px 11px;
+}
 .footer .sub-heading a{
     text-decoration: none;
     color: rgba(16,49,120,1);
     font-size: 15px;
     font-weight: 500;
 }
-
+.footer .sub-heading a:hover{
+    color: rgba(255,153,35,1);
+}
+.footer .store{
+    margin-bottom: 100px;
+}
+/* footer-section end */
 
 /* X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    .m-header .logo-search .custom-container{
+        max-width: 572px;
+    }
     .footer{
         width: 95%;
     }
     .footer .logo-para br{
-         display: block;
-     }
+        display: block;
+    }
+    .footer .social-links li {
+        margin-right: 16px;
+    }
     .footer .helpline{
         margin-top: 20px;
         border-left: 1px solid #80808045;
         padding-left: 40px;
     }
 }
+/* footer-section end */
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    .custom-container{
+        max-width: 740px;
+    }
+    .m-header{
+        display: none;
+    }
+    .desk-header{
+        display: block;
+        border-bottom: 1px solid #80808045;
+    }
+    .desk-header .header-logo img{
+        height: 36px;
+        width: 144px;
+    }
+    .desk-header .n-help{
+        display: none;
+    }
+    .desk-header .header-helpline p{
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 0;
+        color: rgba(91,108,143,1);
+    } 
+    .desk-header .header-helpline strong{
+        font-weight: 500;
+    }
+    .desk-header .header-nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0;
+    }
+    .desk-header .header-nav{
+        position: relative;
+    }
+    .desk-header .header-nav::after{ 
+        position: absolute;
+        background-color: #80808045;
+        content: "";
+        height: 1px;
+        width: 768px;
+        top: 91px;
+        bottom: 0;
+        right: 0;
+        left: -26px;
+    }
+    .desk-header .header-nav::before{ 
+        position: absolute;
+        background-color: #80808045;
+        content: "";
+        height: 1px;
+        width: 768px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: -26px;
+    }
+    .desk-header .nav-content{
+        display: flex;
+        align-items: center;
+        border-left: 1px solid #80808045;
+    }
+    .desk-header .nav-content a{
+        text-decoration: none;  
+        color: rgba(255,153,35,1);
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    .desk-header .nav-bottom ul{
+        padding-left: 0;
+        list-style: none;
+        padding-bottom: 15px;
+    }
+    .desk-header .nav-bottom li{
+        float: left;
+        margin-right: 50px;
+    }
+    .desk-header .nav-bottom li a{
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 500;
+        color: rgba(16,49,120,1);
+    }
+    
     .footer{
         width: 96%;
     }
     .footer .logo img{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     .footer .logo-para p{
         margin-bottom: 8px;
@@ -135,15 +306,35 @@ No media query for `xs` since this is the default in Bootstrap */
     hr{
         display: block;
     }
+    .footer .store{
+        margin-bottom: 50px
+    }
 }    
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .custom-container{
+        max-width: 955px;
+    }
+    .desk-header .header-nav::after{
+        width: 991px;
+        left: -30px;
+    } 
+    .desk-header .header-nav::before{
+        width: 991px;
+        left: -30px;
+    } 
     .footer{
         width: 100%;
     }
+    .footer .logo img {
+        margin-bottom: 40px;
+    }
+    .footer .logo-para p{
+        margin-bottom: 10px;
+    }
     .footer .social-links ul{
-        margin-top: 19%;
+        margin-top: 27%;
     }
     hr{
         display: none;
@@ -152,6 +343,12 @@ No media query for `xs` since this is the default in Bootstrap */
         padding-left: 25px;
         margin-left: 25px;
     }
+    .footer .help h5{
+        margin-bottom: 20px;
+    }
+    .footer .info h3 {
+        margin-bottom: 15px;
+    }    
     .heading{
         margin-top: -15px;
     }
@@ -159,12 +356,120 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .footer .logo-para br{
+    .custom-container{
+        max-width: 1160px;
+    }
+    .desk-header .header-nav::after{
+        width: 1285px;
+        left: -117px;
+    } 
+    .desk-header .header-nav::before{
+        width: 1285px;
+        left: -117px;
+    } 
+
+    .footer{
+        max-width: 100%;
+    }
+    .footer .social-links ul {
+        margin-top: 10%;
+    }
+    .footer .helpline {
+        padding-left: 30px;
+        margin-left: -45px;
+    }
+    .footer .help h5{
+        margin-bottom: 16px;
+    }
+}
+
+/* customize X-Large devices (large desktops, 1280px and up) */
+@media (min-width: 1280px) {
+    .custom-container{
+        max-width: 1260px;
+    }
+    .desk-header .header-logo img{
+        height: 56px;
+        width: 216px;
+    }
+    .desk-header .header-nav{
+        padding: 20px 0;
+    }    
+    .desk-header .header-helpline p{
         display: none;
+    }
+    .desk-header .n-help{
+        display: block;
+    }
+    .desk-header .search-icon i{
+        display: none;
+    }
+    .desk-header .search-content{
+        position: relative;
+        display: block;
+        align-items: center;
+    }
+    .desk-header .search-content input[type="text"] {
+        margin-top: 5px;
+        margin-left: 50px;
+        padding: 22px 25px;
+        height: 0;
+        min-width: 540px;
+        border-radius: 30px;
+        border: none;
+        outline: none;
+        background-color: #80808021;
+    }
+    .desk-header .search-content ::placeholder{
+        color: rgba(91,108,143,1);
+    }
+    .desk-header .search-content button[type="submit"] {
+        color: rgba(16,49,120,1);
+        border: none;
+        position: absolute;
+        top: 15px;
+        right: 4%;
+    }  
+    .desk-header .search-content button[type="submit"]:hover{
+        color: rgba(255,153,35,1);
+    }
+    .desk-header .nav-content{
+        border: none;
+    }
+    .desk-header .account-signin{
+        border-left: 1px solid #80808045;
+    }
+    .desk-header .nav-content a{
+        font-size: 25px;
+    }
+    .desk-header .nav-content a:hover{
+        color: rgba(16,49,120,1);
+    }
+    .desk-header .nav-bottom ul li:last-of-type{
+        margin-right: 0px;
+    }
+    .desk-header .nav-bottom ul li a:hover{
+        color: rgba(255,153,35,1);   
+    }
+    .desk-header .nav-bottom span{
+        color: rgba(91,108,143,1);
+    }
+    .desk-header .nav-bottom strong{
+        font-weight: 500;
+    }
+    .desk-header .header-nav::after{
+        width: 1435px;
+        left: -117px;
+    } 
+    .desk-header .header-nav::before{
+        display: none;
+    } 
+    .footer .info h3{
+        font-size: 24px;
     }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-
+ 
 }
