@@ -1,5 +1,10 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
 }
 
 
@@ -17,12 +22,15 @@ body{
 .specialities .btn-secondary:hover{
     color: #ff9923;
 }
-.specialities .center{
+.specialities .btn-group{
+    margin: 0;
+}
+/* .specialities .center{
     border-left: 1px solid  #1031783b;
 }
 .specialities .right{
     border-left: 1px solid  #1031783b;
-}
+} */
 
 
 /* footer-section */
@@ -155,7 +163,7 @@ Contact Page
     font-size: 14px; 
     line-height: 26px;  
 }
-#location p{
+#location .top p{
     border-bottom: 1px solid #5b6c8f1c;
     padding: 14px 0 35px;
     color: #5b6c8f;
@@ -185,7 +193,24 @@ Contact Page
 #location .btm{
     border-top: 1px solid #5b6c8f1c;
 }
-
+#location .address{
+    width: 298px;
+    background: #fff;
+    position: relative;
+    top: -203px;
+    left: 11px;
+    padding: 33px;
+    box-shadow: 0 0 10px rgb(155 155 155 / 40%)
+}
+#location .address h5{
+    color: #103178;
+    font-weight: 600; 
+    padding-bottom: 16px;   
+}
+#location .address p{
+    color: #5b6c8f;
+    font-weight: 400;    
+}
 /* Contact-details */
 #contact-details{
     font-family: jost;
@@ -240,10 +265,10 @@ Contact Page
 
 /*--------------------------------------------------------------------------------------------------- 
 X-Small devices (portrait phones, less than 576px)
-No media query for `xs` since this is the default in Bootstrap */
-
-/* Small devices (landscape phones, 576px and up) 
+No media query for `xs` since this is the default in Bootstrap 
 -----------------------------------------------------------------------------------------------------*/
+
+/* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
     .footer{
@@ -260,6 +285,7 @@ No media query for `xs` since this is the default in Bootstrap */
 }
 
 /* Medium devices (tablets, 768px and up) */
+
 @media (min-width: 768px) {
     .footer{
         width: 96%;
@@ -283,6 +309,7 @@ No media query for `xs` since this is the default in Bootstrap */
 }    
 
 /* Large devices (desktops, 992px and up) */
+
 @media (min-width: 992px) {
     .footer{
         width: 100%;
@@ -303,6 +330,7 @@ No media query for `xs` since this is the default in Bootstrap */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
+
 @media (min-width: 1200px) {
     .footer .logo-para br{
         display: none;
@@ -310,6 +338,7 @@ No media query for `xs` since this is the default in Bootstrap */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
+
 @media (min-width: 1400px) {
 
 }
