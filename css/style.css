@@ -1,6 +1,41 @@
 body{
+<<<<<<< HEAD
     font-family: 'Jost', sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+>>>>>>> 0887359a574a52157f61e228d96619be70b92faa
 }
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+/* specialities */
+
+.specialities .btn-secondary{
+    border: none;
+    background-color: #f0f2f5;
+    color: #103178;
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.specialities .btn-secondary:hover{
+    color: #ff9923;
+}
+.specialities .btn-group{
+    margin: 0;
+}
+/* .specialities .center{
+    border-left: 1px solid  #1031783b;
+}
+.specialities .right{
+    border-left: 1px solid  #1031783b;
+} */
+
 
 /* header mobile  */
 .m-header .logo-search .custom-container{
@@ -168,6 +203,7 @@ hr{
     font-size: 15px;
     font-weight: 500;
 }
+<<<<<<< HEAD
 .footer .sub-heading a:hover{
     color: rgba(255,153,35,1);
 }
@@ -175,11 +211,153 @@ hr{
     margin-bottom: 100px;
 }
 /* footer-section end */
+=======
 
-/* X-Small devices (portrait phones, less than 576px)
-No media query for `xs` since this is the default in Bootstrap */
+/* ------------------------------------------------------------------------------------------
+Contact Page
+--------------------------------------------------------------------------------------------*/
+
+/* Bread crumb */
+
+#breadcrumb li{
+    font-size: 14px;
+} 
+#breadcrumb a{
+    text-decoration: none;
+    color: #103178;
+}
+
+/* Location */
+
+#location {
+    font-family: jost;
+}
+#location .top h1{
+    color: #103178;
+    font-size: 50px;
+    font-weight: 600;
+}
+#location h3{
+    color: #103178;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px 0 15px;
+}
+#location li{
+    font-weight: 400;
+    color: #5b6c8f;
+    list-style: none; 
+    font-size: 14px; 
+    line-height: 26px;  
+}
+#location .top p{
+    border-bottom: 1px solid #5b6c8f1c;
+    padding: 14px 0 35px;
+    color: #5b6c8f;
+    font-size: 16px;   
+}
+#location .btn{
+    color: #103178;
+    border: 1px solid #5b6c8f1c;
+    border-radius: 60px;
+    padding: 8px 20px;
+    font-size: 18px;
+    margin: 20px 0 35px;
+}
+#location .btn:hover{
+    color: #fff;
+    background-color: #ff9923;
+    outline: none;
+}
+#location i{
+    color: #5b6c8f;
+    padding: 0 7px;
+    font-size: 18px;
+}
+#location i:hover{
+    color: #ff9923;
+}
+#location .btm{
+    border-top: 1px solid #5b6c8f1c;
+}
+#location .address{
+    width: 298px;
+    background: #fff;
+    position: relative;
+    top: -203px;
+    left: 11px;
+    padding: 33px;
+    box-shadow: 0 0 10px rgb(155 155 155 / 40%)
+}
+#location .address h5{
+    color: #103178;
+    font-weight: 600; 
+    padding-bottom: 16px;   
+}
+#location .address p{
+    color: #5b6c8f;
+    font-weight: 400;    
+}
+/* Contact-details */
+#contact-details{
+    font-family: jost;
+}
+#contact-details h2{
+    padding-bottom: 20px;
+    color: #103178;
+}
+#contact-details input,
+#contact-details textarea {
+    background-color: #f0f2f5;
+    border: none;
+    margin-bottom: 3px;
+    color: #5b6c8f;
+    padding: 11px 18px;
+    border-radius: 22px;
+}
+#contact-details .btn{
+    color: #fff;
+    background-color: #ff9923;
+    border: 1px solid #5b6c8f1c;
+    border-radius: 60px;
+    padding: 9px 50px;
+    font-size: 18px;
+    margin: 15px 0 0;
+}
+#contact-details .btn:hover{
+    color: #ff9923;
+    border: 1px solid #ff9923;
+    background-color: #fff;
+    outline: none;
+}
+
+/* advertisment */
+>>>>>>> 0887359a574a52157f61e228d96619be70b92faa
+
+#advertisment{
+    font-family: jost;
+    border-top: 1px solid #5b6c8f1c;
+}
+#advertisment img{
+    width: 107%;
+}
+#advertisment h4{
+    color: #103178;
+    font-size: 22px;
+    text-align: center;
+}
+#advertisment span{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/*--------------------------------------------------------------------------------------------------- 
+X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap 
+-----------------------------------------------------------------------------------------------------*/
 
 /* Small devices (landscape phones, 576px and up) */
+
 @media (min-width: 576px) {
     .m-header .logo-search .custom-container{
         max-width: 572px;
@@ -189,10 +367,14 @@ No media query for `xs` since this is the default in Bootstrap */
     }
     .footer .logo-para br{
         display: block;
+<<<<<<< HEAD
     }
     .footer .social-links li {
         margin-right: 16px;
     }
+=======
+     }
+>>>>>>> 0887359a574a52157f61e228d96619be70b92faa
     .footer .helpline{
         margin-top: 20px;
         border-left: 1px solid #80808045;
@@ -202,6 +384,7 @@ No media query for `xs` since this is the default in Bootstrap */
 /* footer-section end */
 
 /* Medium devices (tablets, 768px and up) */
+
 @media (min-width: 768px) {
     .custom-container{
         max-width: 740px;
@@ -312,6 +495,7 @@ No media query for `xs` since this is the default in Bootstrap */
 }    
 
 /* Large devices (desktops, 992px and up) */
+
 @media (min-width: 992px) {
     .custom-container{
         max-width: 955px;
@@ -355,6 +539,7 @@ No media query for `xs` since this is the default in Bootstrap */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
+
 @media (min-width: 1200px) {
     .custom-container{
         max-width: 1160px;
@@ -470,6 +655,7 @@ No media query for `xs` since this is the default in Bootstrap */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
+
 @media (min-width: 1400px) {
  
 }
