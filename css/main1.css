@@ -1,14 +1,21 @@
 body{
     font-family: 'jost';
-    height: 90vh;
+   padding-top: 30px;
+    background-color: rgb(209, 219, 219);
 }
-
+.row{
+    display: flex;
+}
+.img-fluid{
+    max-width: 90%;
+    height: auto;
+    }
 .hero{
-    background: url("../images/home-bg2.png");
+    background: url('../images/home-bg2.png');
     height: 80vh;
     background-position: right;
     background-repeat: no-repeat;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 .hero .hero-overlay{
     position: absolute;
@@ -19,22 +26,24 @@ body{
     color: rgb(255, 255, 255);    }
 .col h1{
     color: #103178;
-    font-size: 45px;
+    font-size: 60px;
     font-family: 'jost';
 line-height: 1.2;
 font-weight: 700;
 margin-top: 100px;
 }
 .col h2{
+    font-family: 'jost';
     font-size: 20px;
     color: #103178;
-line-height: 1.2;
+line-height: 2;
 font-weight: 100;
 }
 .col-1{
     display: inline;
     padding-right: 20px;
     color: #103178;
+    line-height: 3;
 
 }
 .col-1 .icon .icofont-watermelon{
@@ -52,16 +61,85 @@ font-weight: 100;
     font-weight: 600;
 
 }
+.button{
+    padding: 30px;
+}
 .button a{
+    line-height: 2;
     font-size: 20px;
     color: #fff;
+    padding: 5px;
 }
-.btn-outline-secondary{
+.btn-secondary{
+    background-color: orange;
     border-color: orange;
-    background: orange;
-    margin-top: 20px;
-    border-radius: 10%;
+    padding: 5px;
+    border-radius: 20%;
     color: #fff;
     text-align: center;
     padding: 7px 6px 7px 7px;
 }
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .hero{
+    
+    }
+    .hero h1{
+        font-size: 37x;
+        line-height: 2;
+        }
+        .hero h2{
+            font-size: 19px;
+            line-height: 2;
+        }
+
+ }
+
+@media (min-width: 768px) { 
+    .hero .container .hero-row{
+        height: 80vh;
+        }
+        .col h1{
+            color: #103178;
+            font-size: 37px;
+            font-family: 'jost';
+        line-height: 1.2;
+        font-weight: 700;
+        margin-top: 100px;
+        }
+        .col h2{
+            font-family: 'jost';
+            font-size: 19px;
+            color: #103178;
+        line-height: 2;
+        font-weight: 100;
+        }
+        .col-1{
+            font-size: 14px;
+            font-family: 'jost';
+            display: inline;
+            padding-right: 20px;
+            color: #103178;
+            line-height: 3;
+        
+        }
+        .img-fluid{
+        max-width: 90%;
+        height: auto;
+        }
+    }
+
+
+@media (min-width: 992px) { 
+
+ }
+
+@media (min-width: 1200px) { 
+
+ }
+
+@media (min-width: 1400px) { 
+
+ }
