@@ -1,32 +1,17 @@
 body{
-    font-family: 'Jost';
+    font-family: 'jost';
    padding-top: 30px;
-    background-color: hsl(0, 11%, 91%)
+    background-color:rgba(16, 49, 120, 0.1);
 }
-.row{
-    display: flex;
-}
-
-.img-fluid{
-    max-width: 90%;
-    height: auto;
-    }
-.hero{
-    height: 80vh;
-    background-position: right;
-    background-repeat: no-repeat;
-    padding-top: 50px;
-}
-
-.col-lg-6 .col-md-6 .col-12 h1{
+.col-lg-6 h1{
+    font-family: 'jost';
     color: #103178;
     font-size: 50px;
     line-height: 1.5;
-    font-weight: 800;
-    font-family: 'Jost';
+    font-weight: 900;
 margin-top: 100px;
 }
-.col-lg-6 .col-md-6 .col-12 h2{
+.col-lg-6 h2{
     font-family: 'jost';
     font-size: 20px;
     color: #103178;
@@ -40,20 +25,14 @@ font-weight: 100;
     line-height: 3;
 
 }
-.col-1 .icon .icofont-watermelon{
+.icofont-watermelon{
     color: #103178;
-}
-.price{
-    text-align: center;
-    margin-top: -500px;
-    width: auto;
-    margin-left: 950px;
-    background-color:rgba(255, 166, 0, 0.863);
-    border-radius: 50%;
-    color: #103178;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 25px;
 
+}
+.icofont-brain-alt{
+    color: #103178;
+font-size: 25px;
 }
 .button{
     padding: 30px;
@@ -68,34 +47,65 @@ font-weight: 100;
     background-color: orange;
     border-color: orange;
     padding: 5px;
-    border-radius: 20%;
     color: #fff;
     text-align: center;
     padding: 7px 6px 7px 7px;
 }
+.img-fluid{
 
+    height: auto;
+}
+.col-lg-6 img{
+  left: 679px;
+  height: 350px;
+  position: absolute;
+  top: 174.5px;
+  margin-left: -150px;
+  width: 60%;
+}
+.price{
+    text-align: center;
+    margin-top: -420px;
+    height: 100px;
+    width: 20%;
+    margin-left: 900px;
+    background-color:#FFC800;
+    border-radius: 50%;
+    padding: 0px;
+   
+}
+.price h3{
+    color: #103178;
+    font-size: 26px;
+  margin-top: -25px;
+    font-family: 'jost';
+    font-weight: 700;
 
-/*Small devices (landscape phones, 576px and up)*/
+}
+.price h6{
+    font-size: 16px;
+    color: #103178;
+   margin-top: 10px;
+        font-family: 'jost';
+    font-weight: 700;
+}
+
 @media (min-width: 576px) { 
-    .hero{
     
-    }
-    .hero h1{
+    .col-lg-6 h1{
         font-size: 37x;
         line-height: 2;
         }
-        .hero h2{
+        .col-lg-6 h2{
             font-size: 19px;
             line-height: 2;
         }
+      
 
  }
 
 @media (min-width: 768px) { 
-    .hero .container .hero-row{
-        height: 80vh;
-        }
-        .col h1{
+        .col-lg-6 h1{
             color: #103178;
             font-size: 37px;
             font-family: 'jost';
@@ -103,7 +113,7 @@ font-weight: 100;
         font-weight: 700;
         margin-top: 100px;
         }
-        .col h2{
+        .col-lg-6 h2{
             font-family: 'jost';
             font-size: 19px;
             color: #103178;
