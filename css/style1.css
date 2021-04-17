@@ -1,0 +1,365 @@
+.custom-container{
+    width: 90%;
+    margin: 0 auto;
+} 
+
+/* sign-in-section */
+.sign-in .sign-in-home{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.sign-in .sign-in-home a{
+    text-decoration: none;
+    color: rgba(91,108,143,1);
+    font-size: 14px;
+    padding-right: 6px;
+}
+.sign-in .sign-in-home i{
+    font-size: 12px;
+    color: rgba(91,108,143,1);
+    padding-right: 6px;
+}
+.sign-in .sign-in-home span{
+    color: rgba(91,108,143,1);
+    font-size: 14px;
+}
+.sign-in .sign-in-title{
+    font-size: 25px;
+    color: rgba(16,49,120,1);
+    padding-bottom: 40px;
+}.sign-in .sign-in-content label{
+    color: rgba(16,49,120,1);
+}
+.sign-in .sign-in-content .user-name input{
+    margin: 10px 0 25px 0;
+    padding: 15px;
+    width: 90%;
+    border-radius: 30px;
+    border: none;
+    background-color: #80808021;
+    outline: none;
+}
+.sign-in .sign-in-content .password input{
+    position: relative;
+    margin: 10px 0 20px 0;
+    padding: 15px;
+    width: 90%;
+    border-radius: 30px;
+    border: none;
+    background-color: #80808021;
+    outline: none;
+}
+.sign-in .sign-in-content .password .show{
+    position: absolute;
+    top: 266px;
+    right: 41px;
+}
+.sign-in .sign-in-content .log-in button{
+    padding: 12px;
+    margin-bottom: 5px;
+    width: 53%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgba(255,153,35,1); 
+}
+.sign-in .sign-in-content .log-in button:hover{
+    color: rgba(255,153,35,1);
+    background-color: #fff;
+    border: 1px solid  rgba(255,153,35,1);
+}
+.sign-in .sign-in-content span{
+    color: rgba(16,49,120,1);
+    padding-left: 5px;
+}
+.sign-in .sign-in-content .forget-password{
+    padding: 25px 0 50px 0;
+}
+.sign-in .sign-in-content .forget-password a{
+    color: rgba(16,49,120,1);
+}
+.sign-in .sign-in-content .r-password input{
+    margin: 10px 0 20px 0;
+    padding: 15px;
+    width: 90%;
+    border-radius: 30px;
+    border: none;
+    background-color: #80808021;
+    outline: none;
+}
+.sign-in .sign-in-content .r-password{
+    position: relative;
+}
+.sign-in .sign-in-content .r-password .r-show{
+    position: absolute;
+    bottom: 36px;
+    right: 25px;
+}
+.sign-in .sign-in-content .r-log-in button{
+    padding: 12px;
+    margin-bottom: 25px;
+    width: 53%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgba(255,153,35,1); 
+}    
+.sign-in .sign-in-content .r-log-in button:hover{
+    color: rgba(255,153,35,1);
+    background-color: #fff;
+    border: 1px solid  rgba(255,153,35,1);
+}
+
+/* cart-section */
+.cart .cart-home{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.cart .cart-home a{
+    text-decoration: none;
+    color: rgba(91,108,143,1);
+    font-size: 14px;
+    padding-right: 6px;
+}
+.cart .cart-home i{
+    font-size: 12px;
+    color: rgba(91,108,143,1);
+    padding-right: 6px;
+}
+.cart .cart-home span{
+    color: rgba(91,108,143,1);
+    font-size: 14px;
+}
+.cart .cart-title{
+    position: relative;
+    font-size: 35px;
+    color: rgba(16,49,120,1);
+    padding-bottom: 90px;
+}
+.cart .cart-count{
+    position: absolute;
+    bottom: 105px;
+    right: 40px;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgba(91,108,143,1);
+}
+.cart .cart-content i{
+    color: #8080808c;
+    font-size: 100px;
+    margin: 0 93px;
+}
+.cart .cart-content p{
+    padding: 25px 0;
+    font-size: 14px;
+    color: rgba(91,108,143,1);
+    text-align: center;
+}
+.cart .cart-content a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(255,153,35,1); 
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 9px 45px;
+}
+.cart .cart-content a:hover{
+    color: rgba(255,153,35,1);
+    background-color: #fff;
+    border: 1px solid  rgba(255,153,35,1);
+}
+
+/* blog-section */
+.blog .blog-home{
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+.blog .blog-home a{
+    text-decoration: none;
+    color: rgba(91,108,143,1);
+    font-size: 14px;
+    padding-right: 6px;
+}
+.blog .blog-home i{
+    font-size: 12px;
+    color: rgba(91,108,143,1);
+    padding-right: 6px;
+}
+.blog .blog-home span{
+    color: rgba(91,108,143,1);
+    font-size: 14px;
+}
+.blog .blog-title h1{
+    font-size: 35px;
+    color: rgba(16,49,120,1);
+    padding-bottom: 50px;
+}
+.blog .blog-lists .entry-format img{
+    border-radius: 5px;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+.blog .blog-lists .entry-meta-top{
+    position: relative;
+}
+.blog .blog-lists .entry-meta-top .tags-links{
+    position: absolute;
+    bottom: 158px;
+    left: 7px;
+}
+.blog .blog-lists .entry-meta-top .tags-links a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgba(16,49,120,1);
+    border-radius: 10px;
+    padding: 1px 11px;
+    margin-left: 5px;
+}
+.blog .date-time{
+    color: rgba(91,108,143,1);
+    font-size: 14px;
+    font-weight: 600;
+}
+.blog .vcard-author a{
+    color: rgba(91,108,143,1);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .custom-container{
+        width: 94%;
+        margin: 0 auto;
+    } 
+    .sign-in .sign-in-content .user-name input{
+        width: 94%;
+    }
+    .sign-in .sign-in-content .password input{
+        width: 94%;
+    }
+    .sign-in .sign-in-content .r-password input{
+        width: 94%;
+    }  
+    .sign-in .sign-in-content .log-in{
+        display: contents;
+    }  
+    .sign-in .sign-in-content span {
+        padding-left: 10px;
+    }
+    .sign-in .sign-in-content .log-in button{
+        width: 30%;
+        margin-right: 20px;
+    }
+    .sign-in .sign-in-content .r-log-in button{
+        width: 30%;
+    }
+    .cart .cart-count {
+        right: 265px;
+    }
+    .cart .cart-content i{
+        margin: 0 210px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .sign-in .log-reg .login{
+        width: 45%;
+        float: left;
+    }
+    .sign-in .log-reg .register{
+        width: 45%;
+        float: right;
+    }
+    .sign-in .sign-in-content .r-password .r-show{
+        right: 415px;
+    }
+    .cart .cart-count {
+        right: 440px;
+    }
+    .cart .cart-content i{
+        margin: 0 296px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .sign-in .sign-in-content .password .show{
+        right: 50px;
+    }    
+    .sign-in .sign-in-content .r-password .r-show{
+        right: 535px;
+    }
+    .cart .cart-title{
+        font-size: 45px;
+    }
+    .cart .cart-count{
+        font-size: 20px;
+    }
+    .cart .cart-count {
+        bottom: 110px;
+        right: 569px;
+    }
+    .cart .cart-content i{
+        margin: 0 397px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .sign-in .sign-in-content .password .show{
+        right: 65px;
+    }    
+    .sign-in .sign-in-content .r-password .r-show{
+        right: 650px;
+    }
+    .cart .cart-count {
+        right: 760px;
+    }
+    .cart .cart-content i{
+        margin: 0 490px;
+    }
+}
+
+/* X-Large devices (large desktops, 1280px and up) */
+@media (min-width: 1280px) {
+    .sign-in .sign-in-content .r-password .r-show{
+        right: 715px;
+    }
+    .cart .cart-count {
+        right: 905px;
+    }
+    .cart .cart-content i{
+        margin: 0 558px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .sign-in .sign-in-content .password .show{
+        right: 100px;
+    }    
+    .sign-in .sign-in-content .r-password .r-show{
+        right: 725px;
+    }
+    .cart .cart-count {
+        right: 950px;
+    }
+    .cart .cart-content i{
+        margin: 0 580px;
+    }
+}
