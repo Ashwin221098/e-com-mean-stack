@@ -19,7 +19,10 @@
     overflow: hidden;
     width: 74%;
   }
-   
+  .best-seller .content{
+    border: 1px solid;
+    border-color: rgba(240,242,245,1);
+  }
   .stars-inner::before {
     content: "\f005 \f005 \f005 \f005 \f005";
     color: #f8ce0b;
@@ -28,6 +31,7 @@
     content: "\f006 \f006 \f006 \f006 \f006";
     color: rgba(207,214,228,1); 
   }
+
 .best-seller .product-name a{
   text-decoration: none;
   font-family: Jost;
@@ -160,6 +164,7 @@
   margin-top: 35px;
   text-align: center;
 }
+
 /*small devices (-sm)*/
 @media (min-width: 576px) {
 
@@ -178,7 +183,9 @@
 }
 /* extra large devices (-xl) */
 @media (min-width: 1200px) {
-
+.col-xl-2{
+  width: 20%;
+}
 }
 /* huge screen (-xxl) */
 @media (min-width: 1400px) {
